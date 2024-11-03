@@ -1,0 +1,223 @@
+[
+  {
+    "product_id": 101,
+    "product_title": "Dell Inspiron 15",
+    "product_image": "https://example.com/images/dell-inspiron-15.jpg",
+    "category": "Laptops",
+    "price": 799.99,
+    "description": "Dell Inspiron 15 with a 15.6-inch display, Intel i5 processor, and 8GB RAM.",
+    "specification": [
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD",
+      "15.6-inch FHD display",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 102,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://example.com/images/iphone-14-pro.jpg",
+    "category": "Phones",
+    "price": 999.99,
+    "description": "iPhone 14 Pro with a 6.1-inch Super Retina XDR display and A16 Bionic chip.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A16 Bionic chip",
+      "128GB storage",
+      "5G capability",
+      "Triple-camera system"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 103,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://example.com/images/apple-watch-series-8.jpg",
+    "category": "Smart Watches",
+    "price": 429.99,
+    "description": "Apple Watch Series 8 with advanced health monitoring and activity tracking.",
+    "specification": [
+      "Always-On Retina display",
+      "Blood Oxygen sensor",
+      "ECG app",
+      "Water resistant",
+      "Up to 18 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 104,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "category": "MacBook",
+    "price": 1199.99,
+    "description": "MacBook Air with M2 chip, 13.6-inch Liquid Retina display, and all-day battery life.",
+    "specification": [
+      "Apple M2 chip",
+      "13.6-inch Liquid Retina display",
+      "8GB RAM",
+      "256GB SSD",
+      "MagSafe charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 105,
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://example.com/images/samsung-galaxy-s23.jpg",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2 processor and dynamic AMOLED display.",
+    "specification": [
+      "6.1-inch Dynamic AMOLED 2X",
+      "Snapdragon 8 Gen 2",
+      "128GB storage",
+      "Triple-camera system",
+      "5G support"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 106,
+    "product_title": "JBL Tune 750BTNC",
+    "product_image": "https://example.com/images/jbl-tune-750btnc.jpg",
+    "category": "Accessories",
+    "price": 129.99,
+    "description": "JBL Tune 750BTNC wireless over-ear headphones with active noise cancelling.",
+    "specification": [
+      "Active Noise Cancelling",
+      "Bluetooth 5.0",
+      "Up to 15 hours battery life",
+      "Lightweight and foldable",
+      "Voice Assistant support"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 107,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/images/sony-wh-1000xm5.jpg",
+    "category": "Accessories",
+    "price": 349.99,
+    "description": "Sony WH-1000XM5 noise-canceling wireless headphones with industry-leading sound.",
+    "specification": [
+      "Adaptive Sound Control",
+      "30 hours battery life",
+      "Quick Attention mode",
+      "Touch sensor controls",
+      "Compatible with voice assistants"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 108,
+    "product_title": "ASUS ZenBook 14",
+    "product_image": "https://example.com/images/asus-zenbook-14.jpg",
+    "category": "Laptops",
+    "price": 1099.99,
+    "description": "ASUS ZenBook 14 with 11th Gen Intel i7, 14-inch display, and long battery life.",
+    "specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "14-inch FHD display",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 109,
+    "product_title": "Garmin Forerunner 245",
+    "product_image": "https://example.com/images/garmin-forerunner-245.jpg",
+    "category": "Smart Watches",
+    "price": 299.99,
+    "description": "Garmin Forerunner 245 GPS running watch with fitness tracking and coaching features.",
+    "specification": [
+      "GPS tracking",
+      "Heart rate monitor",
+      "Sleep tracking",
+      "Water resistant",
+      "Up to 7 days battery life"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": 110,
+    "product_title": "HP Pavilion x360",
+    "product_image": "https://example.com/images/hp-pavilion-x360.jpg",
+    "category": "Laptops",
+    "price": 699.99,
+    "description": "HP Pavilion x360 2-in-1 convertible laptop with touchscreen and flexible design.",
+    "specification": [
+      "Intel Core i3",
+      "8GB RAM",
+      "256GB SSD",
+      "14-inch HD touchscreen",
+      "Windows 10"
+    ],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": 111,
+    "product_title": "Google Pixel 7",
+    "product_image": "https://example.com/images/google-pixel-7.jpg",
+    "category": "Phones",
+    "price": 649.99,
+    "description": "Google Pixel 7 with Google Tensor G2 chip, advanced camera features, and pure Android experience.",
+    "specification": [
+      "6.3-inch OLED display",
+      "Google Tensor G2",
+      "128GB storage",
+      "Dual-camera system",
+      "5G capability"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 112,
+    "product_title": "Anker PowerCore 20000",
+    "product_image": "https://example.com/images/anker-powercore-20000.jpg",
+    "category": "Accessories",
+    "price": 49.99,
+    "description": "Anker PowerCore 20000mAh portable charger with high-speed charging for phones and tablets.",
+    "specification": [
+      "20000mAh capacity",
+      "Dual USB ports",
+      "Fast charging",
+      "Compact design",
+      "Compatible with most devices"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 113,
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://example.com/images/macbook-pro-16.jpg",
+    "category": "MacBook",
+    "price": 2499.99,
+    "description": "MacBook Pro 16-inch with M1 Max chip for professional-grade performance and extensive graphics capabilities.",
+    "specification": [
+      "Apple M1 Max chip",
+      "16.2-inch Liquid Retina XDR display",
+      "32GB RAM",
+      "1TB SSD",
+      "Advanced cooling system"
+    ],
+    "availability": true,
+    "rating": 4.9
+  }
+]
