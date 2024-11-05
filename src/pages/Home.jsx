@@ -6,10 +6,10 @@ import { Outlet, useLoaderData } from 'react-router-dom'
 const Home = () => {
     const categories=useLoaderData()
   return (
-    <div>
+    <div className='bg-[rgba(9,8,15,0.05)]'>
         <Banner></Banner>
 
-        <h2 className='py-12 text-center font-bold text-3xl'>Explore Cutting-Edge Gadgets</h2>
+        <h2 className='py-12 mt-52 text-center font-bold text-3xl'>Explore Cutting-Edge Gadgets</h2>
 
     <div className="grid grid-cols-12">
         <div className='col-span-3'> <Categories categories={categories}></Categories> </div>

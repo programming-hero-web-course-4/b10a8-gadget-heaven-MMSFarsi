@@ -2,7 +2,7 @@
   {
     "product_id": 101,
     "product_title": "Dell Inspiron 15",
-    "product_image": "https://example.com/images/dell-inspiron-15.jpg",
+    "product_image": "https://i.ibb.co.com/bNkKxSp/3520-core-i7.jpg",
     "category": "Laptops",
     "price": 799.99,
     "description": "Dell Inspiron 15 with a 15.6-inch display, Intel i5 processor, and 8GB RAM.",
@@ -19,7 +19,7 @@
   {
     "product_id": 102,
     "product_title": "iPhone 14 Pro",
-    "product_image": "https://example.com/images/iphone-14-pro.jpg",
+    "product_image": "https://i.ibb.co.com/5LVfs9n/refurb-iphone-14-pro-gold-202404-wid-2000-hei-1897-fmt-jpeg-qlt-95.jpg",
     "category": "Phones",
     "price": 999.99,
     "description": "iPhone 14 Pro with a 6.1-inch Super Retina XDR display and A16 Bionic chip.",
@@ -36,7 +36,7 @@
   {
     "product_id": 103,
     "product_title": "Apple Watch Series 8",
-    "product_image": "https://example.com/images/apple-watch-series-8.jpg",
+    "product_image": "https://i.ibb.co.com/PgRhTNR/images-q-tbn-ANd9-Gc-QSd1-O8oi9u-X7-S1q7-Mpil-CDxu6-Bpj-F2b-BJl-A-s.jpg",
     "category": "Smart Watches",
     "price": 429.99,
     "description": "Apple Watch Series 8 with advanced health monitoring and activity tracking.",
@@ -53,7 +53,7 @@
   {
     "product_id": 104,
     "product_title": "MacBook Air M2",
-    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "product_image": "https://i.ibb.co.com/CHd89Yq/macbook-air-01-500x500.webp",
     "category": "MacBook",
     "price": 1199.99,
     "description": "MacBook Air with M2 chip, 13.6-inch Liquid Retina display, and all-day battery life.",
@@ -70,7 +70,7 @@
   {
     "product_id": 105,
     "product_title": "Samsung Galaxy S23",
-    "product_image": "https://example.com/images/samsung-galaxy-s23.jpg",
+    "product_image": "https://i.ibb.co.com/yNtL29h/samsung-s23-plus-price-in-bangladesh.jpg",
     "category": "Phones",
     "price": 899.99,
     "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2 processor and dynamic AMOLED display.",
@@ -87,7 +87,7 @@
   {
     "product_id": 106,
     "product_title": "JBL Tune 750BTNC",
-    "product_image": "https://example.com/images/jbl-tune-750btnc.jpg",
+    "product_image": "https://i.ibb.co.com/d2gh3Lj/4341574303-1612427377.jpg",
     "category": "Accessories",
     "price": 129.99,
     "description": "JBL Tune 750BTNC wireless over-ear headphones with active noise cancelling.",
@@ -104,7 +104,7 @@
   {
     "product_id": 107,
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/images/sony-wh-1000xm5.jpg",
+    "product_image": "https://i.ibb.co.com/L1rxF2q/Sony-WH-1000-XM5-Headphones-Blue-300x300.jpg",
     "category": "Accessories",
     "price": 349.99,
     "description": "Sony WH-1000XM5 noise-canceling wireless headphones with industry-leading sound.",
@@ -121,7 +121,7 @@
   {
     "product_id": 108,
     "product_title": "ASUS ZenBook 14",
-    "product_image": "https://example.com/images/asus-zenbook-14.jpg",
+    "product_image": "https://i.ibb.co.com/VVyS0cS/ASUS-Zen-Book-14-UX434-FQ-Core-i7-10th-Gen-14-Inch-FHD-Laptop-with-Windows-10-1-jpg.webp",
     "category": "Laptops",
     "price": 1099.99,
     "description": "ASUS ZenBook 14 with 11th Gen Intel i7, 14-inch display, and long battery life.",
@@ -138,7 +138,7 @@
   {
     "product_id": 109,
     "product_title": "Garmin Forerunner 245",
-    "product_image": "https://example.com/images/garmin-forerunner-245.jpg",
+    "product_image": "https://i.ibb.co.com/jDspk6Y/cf-lg-68fc3b16-996d-47fc-8b75-fe7c6c9ac50d.jpg",
     "category": "Smart Watches",
     "price": 299.99,
     "description": "Garmin Forerunner 245 GPS running watch with fitness tracking and coaching features.",
@@ -155,7 +155,7 @@
   {
     "product_id": 110,
     "product_title": "HP Pavilion x360",
-    "product_image": "https://example.com/images/hp-pavilion-x360.jpg",
+    "product_image": "https://i.ibb.co.com/LPVG4Jb/HP-Pavilion-x360-14-ek0112-TU-Core-i3-12th-Generation-Intel-UHD-Graphics-14-FHD-IPS-2-in-1-Laptop-1.jpg",
     "category": "Laptops",
     "price": 699.99,
     "description": "HP Pavilion x360 2-in-1 convertible laptop with touchscreen and flexible design.",
@@ -172,7 +172,7 @@
   {
     "product_id": 111,
     "product_title": "Google Pixel 7",
-    "product_image": "https://example.com/images/google-pixel-7.jpg",
+    "product_image": "https://i.ibb.co.com/RNQSBtW/Pixel-7-Obsidian-1130.jpg",
     "category": "Phones",
     "price": 649.99,
     "description": "Google Pixel 7 with Google Tensor G2 chip, advanced camera features, and pure Android experience.",
@@ -189,7 +189,7 @@
   {
     "product_id": 112,
     "product_title": "Anker PowerCore 20000",
-    "product_image": "https://example.com/images/anker-powercore-20000.jpg",
+    "product_image": "https://i.ibb.co.com/HFnTkwt/anker-powercore-essential-20000mah-power-bank.webp",
     "category": "Accessories",
     "price": 49.99,
     "description": "Anker PowerCore 20000mAh portable charger with high-speed charging for phones and tablets.",
@@ -206,7 +206,7 @@
   {
     "product_id": 113,
     "product_title": "MacBook Pro 16-inch",
-    "product_image": "https://example.com/images/macbook-pro-16.jpg",
+    "product_image": "https://i.ibb.co.com/JqrLsLT/images-q-tbn-ANd9-Gc-QZ74-CNH2-X-K-w-Ugp7-I70-Rp97nzdv8usi8xg-s.jpg",
     "category": "MacBook",
     "price": 2499.99,
     "description": "MacBook Pro 16-inch with M1 Max chip for professional-grade performance and extensive graphics capabilities.",
