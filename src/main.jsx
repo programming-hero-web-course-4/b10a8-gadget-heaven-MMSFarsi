@@ -3,16 +3,18 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import Reviews from './pages/Reviews';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import GadgetCard from './components/GadgetCard';
 import GadgetDetails from './pages/GadgetDetails';
+import ErrorPage from './pages/ErrorPage';
+import Reviews from './pages/Reviews';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -33,7 +35,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/reviews',
-        element: <Reviews />
+        element: <Reviews></Reviews>,
+        loader:()=>fetch('../reviews.json')
       },
       {
         path: '/dashboard',

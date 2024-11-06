@@ -13,11 +13,11 @@ const Dashboard = () => {
     return (
         <div className="bg-[rgba(9,8,15,0.05)] pb-12">
             <div className="w-full h-[250px] bg-[#9538E2] text-white">
-                <h2 className="text-3xl text-center font-bold">Dashboard</h2>
-                <p className="text-center">
+                <h2 className="text-3xl text-center font-bold pt-10">Dashboard</h2>
+                <p className="text-center mt-2 max-w-[700px] mx-auto">
                     Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                 </p>
-                <div className="text-center">
+                <div className="text-center pt-8">
                     <button
                         onClick={() => handleTabChange('cart')}
                         className={`px-5 py-2 font-bold rounded-xl border mr-1 ${activeTab === 'cart' ? 'bg-white text-[#9538E2]' : 'bg-transparent text-white'}`}

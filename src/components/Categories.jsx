@@ -8,7 +8,7 @@ const Categories = ({ categories }) => {
                     <NavLink
                         key={category.id}
                         to={`/categories/${category.category}`}
-                        className={({ isActive }) => isActive ? 'px-2 py-3 border m-4 text-center rounded-2xl bg-purple-500 text-white' : 'px-2 py-3 border m-4 text-center rounded-2xl bg-[rgba(9,8,15,0.05)]'}>
+                        className={({ isActive }) => isActive ? 'px-2 py-3 border m-4 text-center rounded-3xl bg-purple-500 text-white' : 'px-2 py-3 border m-4 text-center rounded-2xl bg-[rgba(9,8,15,0.05)]'}>
                         {category.category}
                     </NavLink>
                 ))}

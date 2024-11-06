@@ -6,7 +6,7 @@ import { Outlet, useLoaderData } from 'react-router-dom'
 const Home = () => {
     const categories=useLoaderData()
   return (
-    <div className='bg-[rgba(9,8,15,0.05)]'>
+    <div className='bg-[rgba(9,8,15,0.05)]  pb-12'>
         <Banner></Banner>
 
         <h2 className='py-12 mt-52 text-center font-bold text-3xl'>Explore Cutting-Edge Gadgets</h2>

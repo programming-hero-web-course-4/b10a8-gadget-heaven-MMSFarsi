@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { getAllCart, removeCart } from '../Utility/localStorage';
 import CartCard from '../components/CartCard';
+import congoImg from '../assets/Group.png'
 
 const AddToCart = () => {
   const [gadget, setGadget] = useState([]);
@@ -75,12 +76,14 @@ const AddToCart = () => {
      
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-5 rounded-lg shadow-lg">
-            <h2 className="text-xl font-bold mb-2">Congratulations!</h2>
-            <p className="text-lg mb-4">Total cost: ${totalCost.toFixed(2)}</p>
+          <div className="bg-white p-10 rounded-lg shadow-lg">
+            <img className='mx-auto' src={congoImg} alt="" />
+            <h2 className="text-xl font-bold mb-2">Payment Succefully</h2>
+            <p className='text-center'>Thank You for Purchasing</p>
+            <p className="text-center mb-4">Total: ${totalCost.toFixed(2)}</p>
             <button 
               onClick={closeModal} 
-              className="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600"
+              className="px-4 py-2 w-full mx-auto rounded-lg bg-purple-500 text-white  hover:bg-purple-600"
             >
               Close
             </button>

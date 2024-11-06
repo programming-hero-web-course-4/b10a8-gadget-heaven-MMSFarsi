@@ -13,7 +13,7 @@ const CartCard = ({ gadget,handleRemove }) => {
         rating } = gadget;
        
     return (
-        <div class="flex items-center p-4 mt-5  bg-white rounded-lg shadow-md w-full">
+        <div class="flex items-center p-4 mt-5  bg-white rounded-lg shadow-md w-[800px] mx-auto">
     
         <div class="w-16 h-16 bg-gray-300 rounded-md">
             <img className="object-cover h-full" src={product_image} alt="" />

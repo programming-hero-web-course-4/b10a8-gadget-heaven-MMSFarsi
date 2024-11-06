@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import ReactStars from "react-rating-stars-component";
 import { addCart, addWishlist } from '../Utility/localStorage';
+import { FaRegHeart } from "react-icons/fa";
+import { MdOutlineShoppingBag } from "react-icons/md";
+
+
 
 const GadgetDetails = () => {
     const { id } = useParams();
@@ -24,16 +28,16 @@ const GadgetDetails = () => {
     return (
         <div className="relative flex flex-col items-center ">
             <div className="w-full h-[250px] absolute top-0 left-0 right-0 bg-[#9538E2] text-white flex flex-col">
-                <h2 className="text-3xl text-center font-bold">Product Details</h2>
-                <p className="text-center">
+                <h2 className="text-3xl text-center font-bold  pt-10 mb-4">Product Details</h2>
+                <p className="text-center max-w-[700px] mx-auto ">
                     Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                 </p>
             </div>
 
-            <div className="relative pt-32 w-full max-w-2xl flex justify-center">
-                <div className="bg-white shadow-lg rounded-xl p-8 max-w-xl w-full flex flex-col items-start md:flex-row">
-                    <div className="w-1/3 object-cover bg-gray-200 rounded-lg mr-6">
-                        <img src={gadget.product_image} alt={gadget.product_title} />
+            <div className="relative pt-40 flex w-[900px] justify-center">
+                <div className="bg-white shadow-lg rounded-xl p-8 gap-10 flex flex-col items-start md:flex-row">
+                    <div className="w-[300px] my-auto bg-gray-200 rounded-lg mr-6">
+                        <img src={gadget.product_image}alt={gadget.product_title} className="w-full h-full object-cover rounded-lg"/>
                     </div>
 
                     <div className="flex-1">
@@ -68,12 +72,22 @@ const GadgetDetails = () => {
                             <span className="ml-2 text-gray-500">({gadget.rating?.toFixed(1)})</span>
                         </div>
 
-                        <button onClick={handleAddCart} className="bg-blue-500 text-white px-4 py-2 rounded">
-                            Add to Cart
-                        </button>
-                        <button onClick={handleAddWishlist} className="bg-blue-500 text-white px-4 py-2 rounded">
-                            Add to Wishlist
-                        </button>
+
+
+                        <div className="flex gap-3 items-center">
+                            <button
+                                onClick={handleAddCart}
+                                className="px-6 py-3 inline-flex items-center text-white rounded-3xl bg-[#9538E2] font-bold"
+                            >
+                                Add to Cart
+                                <span className="ml-2 text-lg">
+                                    <MdOutlineShoppingBag />
+                                </span>
+                            </button>
+                            <button onClick={handleAddWishlist} className=" text-black px-6 py-3 border  rounded-full">
+                                <FaRegHeart />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
