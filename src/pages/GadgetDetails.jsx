@@ -10,6 +10,7 @@ const GadgetDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
     const [gadget, setGadget] = useState({});
+    const [isWishlistClicked, setIsWishlistClicked] = useState(false); // Track if heart is clicked
 
     useEffect(() => {
         const selectedGadget = data.find(gadget => gadget.product_id === parseInt(id));
@@ -21,16 +22,20 @@ const GadgetDetails = () => {
             addCart(gadget);
         }
     };
+
     const handleAddWishlist = () => {
-        addWishlist(gadget);
+        if (!isWishlistClicked) {
+            addWishlist(gadget);
+            setIsWishlistClicked(true); 
+        }
     };
 
     return (
         <div className="relative flex flex-col items-center ">
-             <Helmet><title>Products || Gadget Zone</title></Helmet>
+            <Helmet><title>Products || Gadget Zone</title></Helmet>
             <div className="w-full h-[250px] absolute top-0 left-0 right-0 bg-[#9538E2] text-white flex flex-col">
-                <h2 className="text-3xl text-center font-bold  pt-10 mb-4">Product Details</h2>
-                <p className="text-center max-w-[700px] mx-auto ">
+                <h2 className="text-3xl text-center font-bold pt-10 mb-4">Product Details</h2>
+                <p className="text-center max-w-[700px] mx-auto">
                     Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                 </p>
             </div>
@@ -85,8 +90,12 @@ const GadgetDetails = () => {
                                     <MdOutlineShoppingBag />
                                 </span>
                             </button>
-                            <button onClick={handleAddWishlist} className=" text-black px-6 py-3 border  rounded-full">
-                                <FaRegHeart />
+                            <button 
+                                onClick={handleAddWishlist} 
+                                disabled={isWishlistClicked} 
+                                className={`px-6 py-3 border rounded-full ${isWishlistClicked ? 'bg-gray-300 cursor-not-allowed' : ''}`}
+                            >
+                                <FaRegHeart className={`${isWishlistClicked ? 'text-red-500' : 'text-black'}`} />
                             </button>
                         </div>
                     </div>

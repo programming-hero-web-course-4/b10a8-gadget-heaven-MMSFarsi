@@ -4,7 +4,7 @@
     "product_title": "Dell Inspiron 15",
     "product_image": "https://i.ibb.co.com/yScgFLB/images-q-tbn-ANd9-Gc-SPj4-R9-D99-Vzwsqc4f-SNHrk1qbl-YU52l-C7-Yig-s.jpg",
     "category": "Laptops",
-    "price": 799.99,
+    "price": 699.99,
     "description": "Dell Inspiron 15 with a 15.6-inch display, Intel i5 processor, and 8GB RAM.",
     "specification": [
       "Intel Core i5",
@@ -38,7 +38,7 @@
     "product_title": "Apple Watch Series 8",
     "product_image": "https://i.ibb.co.com/PgRhTNR/images-q-tbn-ANd9-Gc-QSd1-O8oi9u-X7-S1q7-Mpil-CDxu6-Bpj-F2b-BJl-A-s.jpg",
     "category": "Smart Watches",
-    "price": 429.99,
+    "price": 399.99,
     "description": "Apple Watch Series 8 with advanced health monitoring and activity tracking.",
     "specification": [
       "Always-On Retina display",
@@ -72,7 +72,7 @@
     "product_title": "Samsung Galaxy S23",
     "product_image": "https://i.ibb.co.com/yNtL29h/samsung-s23-plus-price-in-bangladesh.jpg",
     "category": "Phones",
-    "price": 899.99,
+    "price": 849.99,
     "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2 processor and dynamic AMOLED display.",
     "specification": [
       "6.1-inch Dynamic AMOLED 2X",
@@ -123,7 +123,7 @@
     "product_title": "ASUS ZenBook 14",
     "product_image": "https://i.ibb.co.com/VVyS0cS/ASUS-Zen-Book-14-UX434-FQ-Core-i7-10th-Gen-14-Inch-FHD-Laptop-with-Windows-10-1-jpg.webp",
     "category": "Laptops",
-    "price": 1099.99,
+    "price": 1199.99,
     "description": "ASUS ZenBook 14 with 11th Gen Intel i7, 14-inch display, and long battery life.",
     "specification": [
       "Intel Core i7",
@@ -140,7 +140,7 @@
     "product_title": "Garmin Forerunner 245",
     "product_image": "https://i.ibb.co.com/jDspk6Y/cf-lg-68fc3b16-996d-47fc-8b75-fe7c6c9ac50d.jpg",
     "category": "Smart Watches",
-    "price": 299.99,
+    "price": 249.99,
     "description": "Garmin Forerunner 245 GPS running watch with fitness tracking and coaching features.",
     "specification": [
       "GPS tracking",
@@ -174,7 +174,7 @@
     "product_title": "Google Pixel 7",
     "product_image": "https://i.ibb.co.com/RNQSBtW/Pixel-7-Obsidian-1130.jpg",
     "category": "Phones",
-    "price": 649.99,
+    "price": 599.99,
     "description": "Google Pixel 7 with Google Tensor G2 chip, advanced camera features, and pure Android experience.",
     "specification": [
       "6.3-inch OLED display",
