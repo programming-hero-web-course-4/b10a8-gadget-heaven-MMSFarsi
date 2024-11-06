@@ -27,7 +27,6 @@ This project utilizes the following React fundamental concepts:
 For managing and handling data, this project uses:
 
 - **Local Storage**: Data such as the cart items and wishlist is stored in the browser's local storage using utility functions (e.g., `addCart`, `addWishlist`, `removeCart`) to persist user selections even after the page is refreshed.
-- **React Context API (optional)**: If needed, the project can be extended to use React's Context API for global state management, such as managing the authentication state or handling cart data across different components.
 
 ## 5 Features of the Website/Project
 
