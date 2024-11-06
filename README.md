@@ -6,7 +6,7 @@
 https://gadgethubsalman.netlify.app/
 
 ## Requirement Document Link
-[View the Requirement Document](./websiteRequirement.pdf)
+[View the Requirement Document](/public/websiteRequirement.pdf)
 
 ## React Fundamental Concepts Used in the Project
 
