@@ -4,8 +4,7 @@ import ReactStars from "react-rating-stars-component";
 import { addCart, addWishlist } from '../Utility/localStorage';
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
-
-
+import { Helmet } from 'react-helmet';
 
 const GadgetDetails = () => {
     const { id } = useParams();
@@ -18,15 +17,17 @@ const GadgetDetails = () => {
     }, [id, data]);
 
     const handleAddCart = () => {
-        addCart(gadget);
+        if (gadget.availability) {
+            addCart(gadget);
+        }
     };
     const handleAddWishlist = () => {
         addWishlist(gadget);
     };
 
-
     return (
         <div className="relative flex flex-col items-center ">
+             <Helmet><title>Products || Gadget Zone</title></Helmet>
             <div className="w-full h-[250px] absolute top-0 left-0 right-0 bg-[#9538E2] text-white flex flex-col">
                 <h2 className="text-3xl text-center font-bold  pt-10 mb-4">Product Details</h2>
                 <p className="text-center max-w-[700px] mx-auto ">
@@ -37,7 +38,7 @@ const GadgetDetails = () => {
             <div className="relative pt-40 flex w-[900px] justify-center">
                 <div className="bg-white shadow-lg rounded-xl p-8 gap-10 flex flex-col items-start md:flex-row">
                     <div className="w-[300px] my-auto bg-gray-200 rounded-lg mr-6">
-                        <img src={gadget.product_image}alt={gadget.product_title} className="w-full h-full object-cover rounded-lg"/>
+                        <img src={gadget.product_image} alt={gadget.product_title} className="w-full h-full object-cover rounded-lg"/>
                     </div>
 
                     <div className="flex-1">
@@ -72,12 +73,12 @@ const GadgetDetails = () => {
                             <span className="ml-2 text-gray-500">({gadget.rating?.toFixed(1)})</span>
                         </div>
 
-
-
                         <div className="flex gap-3 items-center">
                             <button
                                 onClick={handleAddCart}
-                                className="px-6 py-3 inline-flex items-center text-white rounded-3xl bg-[#9538E2] font-bold"
+                                disabled={!gadget.availability}
+                                className={`px-6 py-3 inline-flex items-center rounded-3xl font-bold 
+                                    ${gadget.availability ? 'bg-[#9538E2] text-white' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                             >
                                 Add to Cart
                                 <span className="ml-2 text-lg">

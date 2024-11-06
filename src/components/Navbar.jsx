@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <div className={`navbar ${isHomePage ? 'bg-[#9538E2]' : 'bg-transparent'} mt-5 pt-4 ${isHomePage ? 'text-white' : 'text-black'} rounded-t-3xl px-12`}>
+    <div className={`navbar ${isHomePage ? 'bg-[#9538E2]' : 'bg-transparent'} mt-5 pt-4 ${isHomePage ? 'text-white' : 'text-[#9538E2]'} rounded-t-3xl px-12`}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

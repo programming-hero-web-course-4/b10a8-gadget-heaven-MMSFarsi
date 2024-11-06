@@ -24,7 +24,7 @@ const Card = ({ gadget }) => {
         <p>Price: {price}$</p>
         <div className="card-actions">
           <NavLink to={`/gadget/${product_id}`}>
-            <Button btnInside={"View Details"} />
+            <Button  btnInside={"View Details"} />
           </NavLink>
         </div>
       </div>

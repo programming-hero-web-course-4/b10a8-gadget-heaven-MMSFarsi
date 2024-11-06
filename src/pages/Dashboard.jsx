@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AddToCart from "./AddToCart";
 import Wishlist from "./Wishlist";
+import { Helmet } from 'react-helmet'
 
 const Dashboard = () => {
     const [activeTab, setActiveTab] = useState('cart');
@@ -12,10 +13,11 @@ const Dashboard = () => {
 
     return (
         <div className="bg-[rgba(9,8,15,0.05)] pb-12">
+              <Helmet><title>Dashboard || Gadget Zone</title></Helmet>
             <div className="w-full h-[250px] bg-[#9538E2] text-white">
                 <h2 className="text-3xl text-center font-bold pt-10">Dashboard</h2>
                 <p className="text-center mt-2 max-w-[700px] mx-auto">
-                    Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
+                The Dashboard is your central hub to manage all gadgets in your cart and wishlist. Quickly view, sort, and organize your items, check the total cost of your cart, and finalize purchases. With an intuitive interface, managing your gadgets has never been easier.
                 </p>
                 <div className="text-center pt-8">
                     <button
